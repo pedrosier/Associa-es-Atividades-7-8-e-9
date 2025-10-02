@@ -1,4 +1,4 @@
-# Trabalho 3 - Programação Orientada a Objetos
+# Trabalho 4 - Programação Orientada a Objetos
 
 Este repositório contém o **Trabalho 4** desenvolvido na disciplina de **Programação Orientada a Objetos** da **Universidade Tecnológica Federal do Paraná (UTFPR) - Câmpus Medianeira**.
 
