@@ -1,0 +1,61 @@
+{
+  "Classes": [
+    {
+      "Nome": "Projeto",
+      "Atributos": [ "id", "nome", "descricaoSuperDetalhadaQueQuebraBoasPraticas" ]
+    },
+    {
+      "Nome": "Marco",
+      "Atributos": [ "id", "data", "data" ]
+    },
+    {
+      "Nome": "Usuario",
+      "Atributos": [ "id", "email", "senha", "senhaConfirmacao" ]
+    },
+    {
+      "Nome": "Tarefa",
+      "Atributos": [ "id", "titulo", "descricao", "descricao" ]
+    },
+    {
+      "Nome": "Equipe",
+      "Atributos": [ "id", "nome", "nome" ]
+    }
+  ],
+  "Associacoes": [
+    {
+      "Origem": "Projeto",
+      "Destino": "Marco",
+      "MultiplicidadeOrigem": "1",
+      "MultiplicidadeDestino": "0..*",
+      "Bidirecional": true
+    },
+    {
+      "Origem": "Projeto",
+      "Destino": "Usuario",
+      "MultiplicidadeOrigem": "1",
+      "MultiplicidadeDestino": "1",
+      "Bidirecional": false
+    },
+    {
+      "Origem": "Projeto",
+      "Destino": "Equipe",
+      "MultiplicidadeOrigem": "1",
+      "MultiplicidadeDestino": "*",
+      "Bidirecional": true
+    },
+    {
+      "Origem": "Equipe",
+      "Destino": "Usuario",
+      "MultiplicidadeOrigem": "1",
+      "MultiplicidadeDestino": "5..10",
+      "Bidirecional": false
+    },
+    {
+      "Origem": "Tarefa",
+      "Destino": "Usuario",
+      "MultiplicidadeOrigem": "0..1",
+      "MultiplicidadeDestino": "1",
+      "Bidirecional": true
+    }
+  ]
+}

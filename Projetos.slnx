@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/Cheiros/Cheiros.csproj" />
     <Project Path="src/Qualificadores/Qualificadores.csproj" />
   </Folder>
 </Solution>

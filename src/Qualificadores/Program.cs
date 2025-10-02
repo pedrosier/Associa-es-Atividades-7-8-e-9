@@ -22,7 +22,7 @@ class Program
             Console.WriteLine($"{i} - {cabecalho[i]}");
 
         Console.WriteLine("\nDigite os índices das colunas que formarão a chave lógica (separados por vírgula):");
-        string entrada = Console.ReadLine();
+        string? entrada = Console.ReadLine();
         var indices = entrada.Split(',').Select(int.Parse).ToArray();
 
         // Cria lista de registros
