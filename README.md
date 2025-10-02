@@ -1,3 +1,4 @@
+POO 2025/2 - Atividade Única: Associações (Atividades 7, 8 e 9)
 Este repositório contém o desenvolvimento das atividades 7, 8 e 9 da "Atividade Única: Associações" para a disciplina de Programação Orientada a Objetos (POO) no semestre 2025/2. O foco é na criação de mini-aplicações web visuais e interativas (client-side, sem backend) para explorar conceitos como qualificadores, refatoração de maus cheiros e um quiz interativo sobre associações entre classes.Cada atividade inclui:Uma interface visual interativa em HTML/CSS/JavaScript.
 Funcionalidades de exportação em PNG (para diagramas/canvas) e JSON/CSV (para dados e decisões).
 Validação argumentativa baseada em conceitos como multiplicidade, opcionalidade, navegabilidade mínima, classe de associação, composição vs. agregação, qualificadores, cheiros e refatorações.
